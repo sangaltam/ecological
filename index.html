@@ -1,94 +1,136 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> 
-    <title>EcoApp</title>
-  </head>
-  <style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--css style-->
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Fonts-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/b31e6b0a75.js" crossorigin="anonymous"></script>
+
+
+  <title>EcoApp</title>
+</head>
+<style>
 
 </style>
-  <body>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<body>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <section id="title">
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-    <section id="title">
-        <!--navigation bar-->
-     <nav class="navbar navbar-expand-lg navbar-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Help our planet</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sponsors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Plans</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-            </ul>
-            </div>
+    <!--navigation bar-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+        <a class="navbar-brand" href="#">Help our planet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
         </div>
+
       </nav>
+
       <!-- Title-->
       <div class="row">
         <div class="col-lg-6">
           <h1>Help world become more ecological</h1>
-          <button type="button">Dowloand</button>
-          <button type="button">Dowloand</button>
+          <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-google-play"></i> Dowloand</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-apple"></i> Dowloand </button>
         </div>
         <div class="col-lg-6">
-          <img src="images/monitor.png" alt="monitors-img">
+          <img id="monitor-img" src="images/phone.png" alt="monitors-img">
         </div>
       </div>
-    
-    </section>
+    </div>
 
-    <!--features-->
-    <section id="features">
-        <h3>Statistics</h3>
-        <p>You can see diferent statistics from different resources about our climat</p>
-        <h3>We are a big community</h3>
-        <p>Become a part of community with one big idea, we want to create our world more cleaner</p>
-        <h3>Share your personal ideas</h3>
-        <p>In our app you have chance to be heared about your ideas, which can help improve our home</p>
-    </section>
 
-  </body>
+
+  </section>
+
+  <!--features-->
+  <section id="features">
+    <div class='container-fluid'>
+      <div class="row">
+        <div class='col-lg-4 features'>
+          <i class="features-icons far fa-comments"></i>
+          <h3 class='features-h3'>We are a big community</h3>
+          <p class='features-p'>Become a part of community with one big idea, we want to create our world more cleaner
+          </p>
+        </div>
+        <div class='col-lg-4 features'>
+          <i class="features-icons fas fa-thermometer-half"></i>
+          <h3 class='features-h3'>Statistics about planet state</h3>
+          <p class='features-p'> You can see diferent statistics from different resources about our climat</p>
+        </div>
+        <div class='col-lg-4 features'>
+          <i class="features-icons far fa-lightbulb"></i>
+          <h3 class='features-h3'>Share your personal ideas</h3>
+          <p class='features-p' s>In our app you have chance to be heared about your ideas, which can help improve our
+            home</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Testimonials-->
+
+  <section id='testimonials'>
+    <h2 class=testimonials-h>I recommend this app for all people who care about our planet, because this app is build so
+      easy, I think
+      everyone can use it</h3>
+      <img class='profile-img' src="images/emily.jpg" alt="emily-jpgs">
+      <em>Emily, New Zeland</em>
+  </section>
+
+
+
   <!--Sponsors-->
-  <section id="sponsors"> <h2>We collaborate with:</h2>
-    <img src="images/birdlife.png" alt="birdlife-img">
-    <img src="images/wwf.png" alt="wwf-img">
-    <img src="images/ng.png" alt="ng-img">
-    <img src="images/discovery.png" alt="discovery-img">
-    <img src="images/greengross.png" alt="greengross-img">
-    <img src="images/cover-ecology.png" alt="cover-ecology-img">
-</section>
-<!--Pricing-->
-<section class="pricing">
+  <section id="sponsors">
+    <img class='sponsors-img' src="images/wwf.png" alt="wwf-img">
+    <img class='sponsors-img' src="images/ng.png" alt="ng-img">
+    <img class='sponsors-img' src="images/discovery.png" alt="discovery-img">
+    <img class='sponsors-img' src="images/cover-ecology.png" alt="cover-ecology-img">
+  </section>
+
+  <!--Pricing-->
+  <section class="pricing">
     <h2>A Plan for every people, who one become more ecological</h2>
     <p>You can choose more comfortable plan!</p>
 
@@ -112,6 +154,7 @@
     <p>Unlimited App usage</p>
 
 
-</section>
+  </section>
+</body>
 
 </html>
